@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<ArrayOfBodySubtype xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BodySubtype>
+    <ID>1</ID>
+    <Name>Male</Name>
+  </BodySubtype>
+  <BodySubtype>
+    <ID>2</ID>
+    <Name>Female</Name>
+  </BodySubtype>
+  <BodySubtype>
+    <ID>3</ID>
+    <Name>Genderless</Name>
+  </BodySubtype>
+  <BodySubtype>
+    <ID>4</ID>
+    <Name>Boy</Name>
+  </BodySubtype>
+</ArrayOfBodySubtype>

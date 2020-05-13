@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<ArrayOfBodyPropsSlots xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BodyPropsSlots>
+    <IDStructure>4</IDStructure>
+    <IDSlot>1</IDSlot>
+    <SlotName>Head</SlotName>
+    <ObjectName>mixamorig:Head</ObjectName>
+  </BodyPropsSlots>
+</ArrayOfBodyPropsSlots>

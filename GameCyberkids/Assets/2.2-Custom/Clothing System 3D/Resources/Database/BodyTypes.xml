@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<ArrayOfBodyType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BodyType>
+    <ID>1</ID>
+    <Name>Human</Name>
+  </BodyType>
+  <BodyType>
+    <ID>3</ID>
+    <Name>Chibi</Name>
+  </BodyType>
+  <BodyType>
+    <ID>4</ID>
+    <Name>BoyGeek</Name>
+  </BodyType>
+</ArrayOfBodyType>

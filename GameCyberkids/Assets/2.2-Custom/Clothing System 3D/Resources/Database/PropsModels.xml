@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<ArrayOfPropModels xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <PropModels>
+    <PropID>1</PropID>
+    <IDBodySubtype>1</IDBodySubtype>
+    <ModelName>sheriff_hat</ModelName>
+  </PropModels>
+  <PropModels>
+    <PropID>1</PropID>
+    <IDBodySubtype>2</IDBodySubtype>
+    <ModelName>sheriff_hat</ModelName>
+  </PropModels>
+  <PropModels>
+    <PropID>2</PropID>
+    <IDBodySubtype>3</IDBodySubtype>
+    <ModelName>hair_male_red</ModelName>
+  </PropModels>
+  <PropModels>
+    <PropID>3</PropID>
+    <IDBodySubtype>3</IDBodySubtype>
+    <ModelName>wintercap</ModelName>
+  </PropModels>
+  <PropModels>
+    <PropID>4</PropID>
+    <IDBodySubtype>3</IDBodySubtype>
+    <ModelName>hair_male_blonde</ModelName>
+  </PropModels>
+  <PropModels>
+    <PropID>5</PropID>
+    <IDBodySubtype>3</IDBodySubtype>
+    <ModelName>hair_male_brown</ModelName>
+  </PropModels>
+  <PropModels>
+    <PropID>6</PropID>
+    <IDBodySubtype>4</IDBodySubtype>
+    <ModelName>Assets/Clothing System 3D/Resources/Clothes/Boy/HairBlonde</ModelName>
+  </PropModels>
+</ArrayOfPropModels>

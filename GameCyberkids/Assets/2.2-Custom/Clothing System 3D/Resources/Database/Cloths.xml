@@ -1,0 +1,198 @@
+<?xml version="1.0"?>
+<ArrayOfCloth xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Cloth>
+    <ID>2</ID>
+    <Name>Sheriff Shirt</Name>
+    <IDBodyStructure>1</IDBodyStructure>
+  </Cloth>
+  <Cloth>
+    <ID>3</ID>
+    <Name>Sheriff Boots</Name>
+    <IDBodyStructure>1</IDBodyStructure>
+  </Cloth>
+  <Cloth>
+    <ID>4</ID>
+    <Name>Mummy</Name>
+    <IDBodyStructure>1</IDBodyStructure>
+  </Cloth>
+  <Cloth>
+    <ID>5</ID>
+    <Name>Panda</Name>
+    <IDBodyStructure>1</IDBodyStructure>
+  </Cloth>
+  <Cloth>
+    <ID>6</ID>
+    <Name>Sheriff Pants</Name>
+    <IDBodyStructure>1</IDBodyStructure>
+  </Cloth>
+  <Cloth>
+    <ID>7</ID>
+    <Name>Jumper Black</Name>
+    <IDBodyStructure>2</IDBodyStructure>
+  </Cloth>
+  <Cloth>
+    <ID>8</ID>
+    <Name>Jumper Red</Name>
+    <IDBodyStructure>2</IDBodyStructure>
+  </Cloth>
+  <Cloth>
+    <ID>9</ID>
+    <Name>Pants - Blue</Name>
+    <IDBodyStructure>2</IDBodyStructure>
+  </Cloth>
+  <Cloth>
+    <ID>10</ID>
+    <Name>Pants - Caqui</Name>
+    <IDBodyStructure>2</IDBodyStructure>
+  </Cloth>
+  <Cloth>
+    <ID>11</ID>
+    <Name>Robes - Gray</Name>
+    <IDBodyStructure>2</IDBodyStructure>
+  </Cloth>
+  <Cloth>
+    <ID>12</ID>
+    <Name>Shoes</Name>
+    <IDBodyStructure>2</IDBodyStructure>
+  </Cloth>
+  <Cloth>
+    <ID>13</ID>
+    <Name>Shorts - Black</Name>
+    <IDBodyStructure>2</IDBodyStructure>
+  </Cloth>
+  <Cloth>
+    <ID>14</ID>
+    <Name>Shorts - Blue</Name>
+    <IDBodyStructure>2</IDBodyStructure>
+  </Cloth>
+  <Cloth>
+    <ID>15</ID>
+    <Name>Shorts - Red</Name>
+    <IDBodyStructure>2</IDBodyStructure>
+  </Cloth>
+  <Cloth>
+    <ID>16</ID>
+    <Name>Sneakers</Name>
+    <IDBodyStructure>2</IDBodyStructure>
+  </Cloth>
+  <Cloth>
+    <ID>17</ID>
+    <Name>T-Shirt - Cat Ears</Name>
+    <IDBodyStructure>2</IDBodyStructure>
+  </Cloth>
+  <Cloth>
+    <ID>18</ID>
+    <Name>T-Shirt - Orange</Name>
+    <IDBodyStructure>2</IDBodyStructure>
+  </Cloth>
+  <Cloth>
+    <ID>19</ID>
+    <Name>T-Shirt - Pink</Name>
+    <IDBodyStructure>2</IDBodyStructure>
+  </Cloth>
+  <Cloth>
+    <ID>20</ID>
+    <Name>Gorro Geek - Negro</Name>
+    <IDBodyStructure>4</IDBodyStructure>
+  </Cloth>
+  <Cloth>
+    <ID>21</ID>
+    <Name>Pantalon - Negro</Name>
+    <IDBodyStructure>4</IDBodyStructure>
+  </Cloth>
+  <Cloth>
+    <ID>22</ID>
+    <Name>Gorro - Lana</Name>
+    <IDBodyStructure>4</IDBodyStructure>
+  </Cloth>
+  <Cloth>
+    <ID>23</ID>
+    <Name>Gorra</Name>
+    <IDBodyStructure>4</IDBodyStructure>
+  </Cloth>
+  <Cloth>
+    <ID>24</ID>
+    <Name>Lentes - Geek</Name>
+    <IDBodyStructure>4</IDBodyStructure>
+  </Cloth>
+  <Cloth>
+    <ID>25</ID>
+    <Name>Cabello - Negro</Name>
+    <IDBodyStructure>4</IDBodyStructure>
+  </Cloth>
+  <Cloth>
+    <ID>26</ID>
+    <Name>Cabello - Rubio</Name>
+    <IDBodyStructure>4</IDBodyStructure>
+  </Cloth>
+  <Cloth>
+    <ID>27</ID>
+    <Name>Cabello - Rojo</Name>
+    <IDBodyStructure>4</IDBodyStructure>
+  </Cloth>
+  <Cloth>
+    <ID>28</ID>
+    <Name>Pantalones - Blanco</Name>
+    <IDBodyStructure>4</IDBodyStructure>
+  </Cloth>
+  <Cloth>
+    <ID>29</ID>
+    <Name>Gorra Trash - Negra</Name>
+    <IDBodyStructure>4</IDBodyStructure>
+  </Cloth>
+  <Cloth>
+    <ID>30</ID>
+    <Name>Polera - Negra</Name>
+    <IDBodyStructure>4</IDBodyStructure>
+  </Cloth>
+  <Cloth>
+    <ID>31</ID>
+    <Name>Polera - Azul</Name>
+    <IDBodyStructure>4</IDBodyStructure>
+  </Cloth>
+  <Cloth>
+    <ID>32</ID>
+    <Name>Polera - Roja</Name>
+    <IDBodyStructure>4</IDBodyStructure>
+  </Cloth>
+  <Cloth>
+    <ID>33</ID>
+    <Name>Polera - Blanca</Name>
+    <IDBodyStructure>4</IDBodyStructure>
+  </Cloth>
+  <Cloth>
+    <ID>34</ID>
+    <Name>Polera - Bully</Name>
+    <IDBodyStructure>4</IDBodyStructure>
+  </Cloth>
+  <Cloth>
+    <ID>35</ID>
+    <Name>Gorro Geek - Naranjo</Name>
+    <IDBodyStructure>4</IDBodyStructure>
+  </Cloth>
+  <Cloth>
+    <ID>36</ID>
+    <Name>Gorro Geek - Blanco</Name>
+    <IDBodyStructure>4</IDBodyStructure>
+  </Cloth>
+  <Cloth>
+    <ID>37</ID>
+    <Name>GorroGeek Negro</Name>
+    <IDBodyStructure>4</IDBodyStructure>
+  </Cloth>
+  <Cloth>
+    <ID>38</ID>
+    <Name>Gorro Geek - Purpura</Name>
+    <IDBodyStructure>4</IDBodyStructure>
+  </Cloth>
+  <Cloth>
+    <ID>39</ID>
+    <Name>Gorro Trash - Red</Name>
+    <IDBodyStructure>4</IDBodyStructure>
+  </Cloth>
+  <Cloth>
+    <ID>40</ID>
+    <Name>Polera Verde</Name>
+    <IDBodyStructure>4</IDBodyStructure>
+  </Cloth>
+</ArrayOfCloth>
