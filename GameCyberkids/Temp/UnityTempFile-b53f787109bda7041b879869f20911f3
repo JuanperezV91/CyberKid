@@ -1,0 +1,600 @@
+/target:library
+/nowarn:0169
+/out:Temp/Assembly-CSharp.dll
+/debug:portable
+/optimize-
+/nostdlib+
+/preferreduilang:en-US
+/langversion:latest
+/reference:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.FileSystemHttpModule.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreModule.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll"
+/reference:Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+/reference:Library/ScriptAssemblies/UnityEngine.UI.dll
+/reference:Library/ScriptAssemblies/Unity.Timeline.dll
+/reference:Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.Rider.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.TextMeshPro.dll
+/reference:Library/ScriptAssemblies/UnityEditor.UI.dll
+/reference:"Assets/4-Puzzles Games/PuzzleKid/MatchThemAssets/HOTweenMicro/HOTween.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Core.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Runtime.Serialization.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.Linq.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.Vectors.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Net.Http.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Microsoft.CSharp.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Data.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/Microsoft.Win32.Primitives.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/netstandard.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.AppContext.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Concurrent.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.NonGeneric.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Specialized.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Annotations.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.EventBasedAsync.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Primitives.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.TypeConverter.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Console.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Data.Common.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Contracts.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Debug.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.FileVersionInfo.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Process.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.StackTrace.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TextWriterTraceListener.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Tools.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TraceSource.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Drawing.Primitives.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Dynamic.Runtime.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Calendars.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Extensions.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Compression.ZipFile.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.DriveInfo.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Primitives.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Watcher.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.IsolatedStorage.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.MemoryMappedFiles.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Pipes.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.UnmanagedMemoryStream.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Expressions.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Parallel.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Queryable.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Http.Rtc.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NameResolution.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NetworkInformation.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Ping.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Primitives.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Requests.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Security.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Sockets.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebHeaderCollection.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.Client.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ObjectModel.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.ILGeneration.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.Lightweight.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Extensions.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Primitives.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Reader.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.ResourceManager.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Writer.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.CompilerServices.VisualC.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Extensions.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Handles.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.RuntimeInformation.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Numerics.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Formatters.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Json.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Primitives.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Xml.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Claims.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Algorithms.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Csp.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Encoding.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Primitives.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.X509Certificates.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Principal.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.SecureString.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Duplex.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Http.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.NetTcp.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Primitives.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Security.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.Extensions.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.RegularExpressions.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Overlapped.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.Parallel.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Thread.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.ThreadPool.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Timer.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ValueTuple.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.ReaderWriter.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XDocument.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlDocument.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlSerializer.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.XDocument.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/UnityScript.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/UnityScript.Lang.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll"
+/define:UNITY_2019_2_15
+/define:UNITY_2019_2
+/define:UNITY_2019
+/define:UNITY_5_3_OR_NEWER
+/define:UNITY_5_4_OR_NEWER
+/define:UNITY_5_5_OR_NEWER
+/define:UNITY_5_6_OR_NEWER
+/define:UNITY_2017_1_OR_NEWER
+/define:UNITY_2017_2_OR_NEWER
+/define:UNITY_2017_3_OR_NEWER
+/define:UNITY_2017_4_OR_NEWER
+/define:UNITY_2018_1_OR_NEWER
+/define:UNITY_2018_2_OR_NEWER
+/define:UNITY_2018_3_OR_NEWER
+/define:UNITY_2018_4_OR_NEWER
+/define:UNITY_2019_1_OR_NEWER
+/define:UNITY_2019_2_OR_NEWER
+/define:UNITY_INCLUDE_TESTS
+/define:ENABLE_AUDIO
+/define:ENABLE_CACHING
+/define:ENABLE_CLOTH
+/define:ENABLE_MICROPHONE
+/define:ENABLE_MULTIPLE_DISPLAYS
+/define:ENABLE_PHYSICS
+/define:ENABLE_TEXTURE_STREAMING
+/define:ENABLE_UNET
+/define:ENABLE_LZMA
+/define:ENABLE_UNITYEVENTS
+/define:ENABLE_WEBCAM
+/define:ENABLE_WWW
+/define:ENABLE_CLOUD_SERVICES_COLLAB
+/define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+/define:ENABLE_CLOUD_SERVICES_ADS
+/define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+/define:ENABLE_CLOUD_SERVICES_UNET
+/define:ENABLE_CLOUD_SERVICES_BUILD
+/define:ENABLE_CLOUD_LICENSE
+/define:ENABLE_EDITOR_HUB_LICENSE
+/define:ENABLE_WEBSOCKET_CLIENT
+/define:ENABLE_DIRECTOR_AUDIO
+/define:ENABLE_DIRECTOR_TEXTURE
+/define:ENABLE_MANAGED_JOBS
+/define:ENABLE_MANAGED_TRANSFORM_JOBS
+/define:ENABLE_MANAGED_ANIMATION_JOBS
+/define:ENABLE_MANAGED_AUDIO_JOBS
+/define:INCLUDE_DYNAMIC_GI
+/define:ENABLE_MONO_BDWGC
+/define:ENABLE_SCRIPTING_GC_WBARRIERS
+/define:PLATFORM_SUPPORTS_MONO
+/define:RENDER_SOFTWARE_CURSOR
+/define:ENABLE_VIDEO
+/define:PLATFORM_STANDALONE_WIN
+/define:PLATFORM_STANDALONE
+/define:UNITY_STANDALONE_WIN
+/define:UNITY_STANDALONE
+/define:ENABLE_RUNTIME_GI
+/define:ENABLE_MOVIES
+/define:ENABLE_NETWORK
+/define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+/define:ENABLE_UNITYWEBREQUEST
+/define:ENABLE_CLOUD_SERVICES
+/define:ENABLE_CLOUD_SERVICES_ANALYTICS
+/define:ENABLE_CLOUD_SERVICES_PURCHASING
+/define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+/define:ENABLE_OUT_OF_PROCESS_CRASH_HANDLER
+/define:ENABLE_EVENT_QUEUE
+/define:ENABLE_CLUSTER_SYNC
+/define:ENABLE_CLUSTERINPUT
+/define:ENABLE_VR
+/define:ENABLE_AR
+/define:ENABLE_WEBSOCKET_HOST
+/define:ENABLE_MONO
+/define:NET_STANDARD_2_0
+/define:ENABLE_PROFILER
+/define:DEBUG
+/define:TRACE
+/define:UNITY_ASSERTIONS
+/define:UNITY_EDITOR
+/define:UNITY_EDITOR_64
+/define:UNITY_EDITOR_WIN
+/define:ENABLE_UNITY_COLLECTIONS_CHECKS
+/define:ENABLE_BURST_AOT
+/define:UNITY_TEAM_LICENSE
+/define:ENABLE_CUSTOM_RENDER_TEXTURE
+/define:ENABLE_DIRECTOR
+/define:ENABLE_LOCALIZATION
+/define:ENABLE_SPRITES
+/define:ENABLE_TERRAIN
+/define:ENABLE_TILEMAP
+/define:ENABLE_TIMELINE
+/define:ENABLE_LEGACY_INPUT_MANAGER
+/define:CSHARP_7_OR_LATER
+/define:CSHARP_7_3_OR_NEWER
+Assets\2.1-MenuShop\Script\IniciarJuego.cs
+Assets\2.1-MenuShop\Script\MenuSeleccion.cs
+"Assets\2.2-Custom\Clothing System 3D\Scenes\2\datos.cs"
+"Assets\2.2-Custom\Clothing System 3D\Scenes\2\Previeew.cs"
+"Assets\2.2-Custom\Clothing System 3D\Scenes\2\SceneControl.cs"
+"Assets\2.2-Custom\Clothing System 3D\Scenes\2\Siguiente.cs"
+"Assets\2.2-Custom\Clothing System 3D\Scenes\ComponentGet.cs"
+"Assets\2.2-Custom\Clothing System 3D\Scenes\JSON\SaveDataJson.cs"
+"Assets\2.2-Custom\Clothing System 3D\Scenes\Player.cs"
+"Assets\2.2-Custom\Clothing System 3D\Scenes\PlayerData.cs"
+"Assets\2.2-Custom\Clothing System 3D\Scenes\Playerprefs\ItemKid.cs"
+"Assets\2.2-Custom\Clothing System 3D\Scenes\Playerprefs\SceneToScene.cs"
+"Assets\2.2-Custom\Clothing System 3D\Scenes\SaveAndLoad\CyberPlayer.cs"
+"Assets\2.2-Custom\Clothing System 3D\Scenes\SaveAndLoad\CyberPlayerData.cs"
+"Assets\2.2-Custom\Clothing System 3D\Scenes\SaveAndLoad\CyberSaveSystem.cs"
+"Assets\2.2-Custom\Clothing System 3D\Scenes\SaveSystem.cs"
+"Assets\2.2-Custom\Clothing System 3D\Scrips\ActorScripts\ActorScript.cs"
+"Assets\2.2-Custom\Clothing System 3D\Scrips\CameraPoints.cs"
+"Assets\2.2-Custom\Clothing System 3D\Scrips\CustomAvatar.cs"
+"Assets\2.2-Custom\Clothing System 3D\Scrips\CustomCap.cs"
+"Assets\2.2-Custom\Clothing System 3D\Scrips\CustomGlass.cs"
+"Assets\2.2-Custom\Clothing System 3D\Scrips\CustomHair.cs"
+"Assets\2.2-Custom\Clothing System 3D\Scrips\CustomizationManager.cs"
+"Assets\2.2-Custom\Clothing System 3D\Scrips\CustomPant.cs"
+"Assets\2.2-Custom\Clothing System 3D\Scrips\CustomPants.cs"
+"Assets\2.2-Custom\Clothing System 3D\Scrips\CustomSkinArms.cs"
+"Assets\2.2-Custom\Clothing System 3D\Scrips\CustomSkinFace.cs"
+"Assets\2.2-Custom\Clothing System 3D\Scrips\CustomTshirt.cs"
+"Assets\2.2-Custom\Clothing System 3D\Scrips\Database\XML\ConfigRecordset.cs"
+"Assets\2.2-Custom\Clothing System 3D\Scrips\Database\XML\Recordset.cs"
+"Assets\2.2-Custom\Clothing System 3D\Scrips\GuardarDataPersonaje\CyberKidPlayer.cs"
+"Assets\2.2-Custom\Clothing System 3D\Scrips\GuardarDataPersonaje\Move\LoadMove.cs"
+"Assets\2.2-Custom\Clothing System 3D\Scrips\GuardarDataPersonaje\StaticValue.cs"
+"Assets\2.2-Custom\Clothing System 3D\Scrips\Movimientows\PlayerControllerTransform.cs"
+"Assets\2.2-Custom\Clothing System 3D\Scrips\PlayerControllerKid.cs"
+"Assets\2.2-Custom\Clothing System 3D\Scrips\setup_scene.cs"
+"Assets\2.2-Custom\Clothing System 3D\Scrips\Shop\MenuSeleccion2.cs"
+"Assets\2.2-Custom\Clothing System 3D\Scrips\ShopControlScript.cs"
+"Assets\2.2-Custom\Clothing System 3D\Scrips\Tables\BodyModelTable.cs"
+"Assets\2.2-Custom\Clothing System 3D\Scrips\Tables\BodyStructureTable.cs"
+"Assets\2.2-Custom\Clothing System 3D\Scrips\Tables\BodySubtypeTable.cs"
+"Assets\2.2-Custom\Clothing System 3D\Scrips\Tables\BodyTypeTable.cs"
+"Assets\2.2-Custom\Clothing System 3D\Scrips\Tables\ClothTable.cs"
+"Assets\2.2-Custom\Clothing System 3D\Scrips\Tables\CSConfig.cs"
+"Assets\2.2-Custom\Clothing System 3D\Scrips\Tables\EyeSkinTable.cs"
+"Assets\2.2-Custom\Clothing System 3D\Scrips\Tables\EyesTable.cs"
+"Assets\2.2-Custom\Clothing System 3D\Scrips\Tables\PropTable.cs"
+"Assets\2.2-Custom\Clothing System 3D\Scrips\Tables\SkinsTable.cs"
+"Assets\2.2-Custom\Clothing System 3D\Scrips\Util.cs"
+Assets\2.2-Custom\Modern_GUI_Skin\Demo_Assets\scripts\GUI_Demo.cs
+Assets\3-CyberWorld\MiniMundo.cs
+Assets\3-CyberWorld\Scripts\YoutubeLink.cs
+"Assets\4-Puzzles Games\DataKids\DataKidsRecovery\Scripts\AudioController.cs"
+"Assets\4-Puzzles Games\DataKids\DataKidsRecovery\Scripts\BackAndroid.cs"
+"Assets\4-Puzzles Games\DataKids\DataKidsRecovery\Scripts\CameraAspect.cs"
+"Assets\4-Puzzles Games\DataKids\DataKidsRecovery\Scripts\ObjectMove.cs"
+"Assets\4-Puzzles Games\DataKids\DataKidsRecovery\Scripts\OpenLevel.cs"
+"Assets\4-Puzzles Games\DataKids\DataKidsRecovery\Scripts\PlayerScript.cs"
+"Assets\4-Puzzles Games\DataKids\DataKidsRecovery\Scripts\SetScore.cs"
+"Assets\4-Puzzles Games\DataKids\DataKidsRecovery\Scripts\VolverMain.cs"
+"Assets\4-Puzzles Games\PuzzleKid\MatchThemAssets\Script\Bird.cs"
+"Assets\4-Puzzles Games\PuzzleKid\MatchThemAssets\Script\Main.cs"
+"Assets\4-Puzzles Games\PuzzleKid\MatchThemAssets\Script\MainMenuPuzzle.cs"
+"Assets\5-GameKid\Script Level 1\ScoreScript.cs"
+"Assets\5-GameKid\Script Level 1\VoxelBustersManager.cs"
+Assets\5-GameKid\Script_Levels\CupScript.cs
+Assets\5-GameKid\Script_Levels\DragEmailDrop.cs
+Assets\5-GameKid\Script_Levels\LevelControlScript.cs
+Assets\5-GameKid\Script_Levels\LevelNumberScript.cs
+Assets\5-GameKid\Script_Levels\MainManuControlScript.cs
+Assets\5-GameKid\Script_Levels\PlayerMoveScript.cs
+Assets\5-GameKid\Script_Levels\SkullScript.cs
+"Assets\5-Runner(GameBackUp)\JuegoAventura\AssetBundleManager\AssetBundleLoadOperation.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\AssetBundleManager\AssetBundleManager.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\AssetBundleManager\Utility.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Scripts\AssetBundlesDatabaseHandler.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Scripts\Characters\Character.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Scripts\Characters\CharacterAccessories.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Scripts\Characters\CharacterCollider.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Scripts\Characters\CharacterDatabase.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Scripts\Characters\CharacterInputController.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Scripts\Characters\RandomAnimation.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Scripts\Characters\RestartRunning.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Scripts\Coin.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Scripts\Consumable\Consumable.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Scripts\Consumable\ConsumableDatabase.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Scripts\Consumable\ConsumableIcon.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Scripts\Consumable\Types\CoinMagnet.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Scripts\Consumable\Types\ExtraLife.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Scripts\Consumable\Types\Invincibility.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Scripts\Consumable\Types\Score2Multiplier.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Scripts\CoroutineHandler.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Scripts\GameManager\GameOverState.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Scripts\GameManager\GameState.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Scripts\GameManager\LoadoutState.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Scripts\GameManager\Modifier.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Scripts\Helpers.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Scripts\LevelLoader.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Scripts\Missions\Missions.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Scripts\Obstacles\AllLaneObstacle.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Scripts\Obstacles\Missile.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Scripts\Obstacles\Obstacle.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Scripts\Obstacles\PatrollingObstacle.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Scripts\Obstacles\SimpleBarricade.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Scripts\OpenURL.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Scripts\PlayerData.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Scripts\Pooler.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Scripts\Sounds\AssignOutputChannel.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Scripts\Sounds\CountdownSound.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Scripts\Sounds\MusicPlayer.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Scripts\Themes\ThemeData.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Scripts\Themes\ThemeDatabase.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Scripts\Tracks\TrackManager.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Scripts\Tracks\TrackSegment.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Scripts\UI\AdsForMission.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Scripts\UI\HighscoreUI.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Scripts\UI\Leaderboard.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Scripts\UI\LicenceDisplayer.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Scripts\UI\MainMenu.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Scripts\UI\MissionEntry.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Scripts\UI\MissionUI.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Scripts\UI\PowerupIcon.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Scripts\UI\Settings\DataDeleteConfirmation.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Scripts\UI\Settings\SettingPopup.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Scripts\UI\Shop\IAPHandler.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Scripts\UI\Shop\ShopAccessoriesList.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Scripts\UI\Shop\ShopCharacterList.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Scripts\UI\Shop\ShopItemList.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Scripts\UI\Shop\ShopItemListItem.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Scripts\UI\Shop\ShopList.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Scripts\UI\Shop\ShopThemeList.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Scripts\UI\Shop\ShopUI.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Scripts\UI\StartButton.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Scripts\WorldCurver.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Services\Analytics\StandardEvents\AnalyticsEvent.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Services\Analytics\StandardEvents\Enums\AcquisitionSource.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Services\Analytics\StandardEvents\Enums\AcquisitionType.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Services\Analytics\StandardEvents\Enums\AdvertisingNetwork.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Services\Analytics\StandardEvents\Enums\AuthorizationNetwork.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Services\Analytics\StandardEvents\Enums\ScreenName.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Services\Analytics\StandardEvents\Enums\ShareType.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Services\Analytics\StandardEvents\Enums\SocialNetwork.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Services\Analytics\StandardEvents\Enums\StoreType.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Services\Analytics\Tracker\AnalyticsEventTracker.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Services\Analytics\Tracker\AnalyticsEventTrackerSettings.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Services\Analytics\Tracker\Payload\AnalyticsEventParam.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Services\Analytics\Tracker\Payload\StandardEvents\CustomEventPayload.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Services\Analytics\Tracker\Payload\StandardEvents\StandardEventPayload.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Services\Analytics\Tracker\TrackableProperty\TrackableField.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Services\Analytics\Tracker\TrackableProperty\TrackableProperty.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Services\Analytics\Tracker\TrackableProperty\ValueProperty.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Services\Analytics\Tracker\Trigger\Attributes\ExposedToAnalyticsAttribute.cs.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Services\Analytics\Tracker\Trigger\Enums\TriggerBool.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Services\Analytics\Tracker\Trigger\Enums\TriggerLifecycleEvent.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Services\Analytics\Tracker\Trigger\Enums\TriggerOperator.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Services\Analytics\Tracker\Trigger\Enums\TriggerType.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Services\Analytics\Tracker\Trigger\EventTrigger.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Services\Analytics\Tracker\Trigger\TrackableTrigger.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Services\Analytics\Tracker\Trigger\TriggerMethod.cs"
+"Assets\5-Runner(GameBackUp)\JuegoAventura\Services\Analytics\Tracker\Trigger\TriggerRule.cs"
+Assets\6-GameKid\MemoryMatchGame\Scripts\Base\MemoryControllerBase.cs
+Assets\6-GameKid\MemoryMatchGame\Scripts\Base\TouchBase.cs
+Assets\6-GameKid\MemoryMatchGame\Scripts\Controllers\GameController.cs
+Assets\6-GameKid\MemoryMatchGame\Scripts\Controllers\MemoryControlllerEasy.cs
+Assets\6-GameKid\MemoryMatchGame\Scripts\Util\FlipOver.cs
+Assets\6-GameKid\MemoryMatchGame\Scripts\Util\SortPosition.cs
+Assets\6-GameKid\MemoryMatchGame\Scripts\Util\TouchCard.cs
+Assets\7-MenuLevel\DeletePlayerPrefs.cs
+Assets\7-MenuLevel\LevelSelection.cs
+Assets\7-MenuLevel\MoveToNextLevel.cs
+Assets\7-MenuLevel\SceneManaging.cs
+Assets\Audio\Script\SoundEffect.cs
+Assets\GameEvent.cs
+"Assets\Menú\MenuPrincipal.cs"
+"Assets\Menú\Menuss.cs"
+"Assets\Menú\Principal.cs"
+Assets\PantallaInicio\Inicio.cs
+Assets\Pluginsd\Lowscope\ComponentSaveSystem\Components\Saveable.cs
+Assets\Pluginsd\Lowscope\ComponentSaveSystem\Components\SavePosition.cs
+Assets\Pluginsd\Lowscope\ComponentSaveSystem\Components\SaveRotation.cs
+Assets\Pluginsd\Lowscope\ComponentSaveSystem\Components\SaveScale.cs
+Assets\Pluginsd\Lowscope\ComponentSaveSystem\Components\SaveVisibility.cs
+Assets\QuickSave\Core\Security\Cryptography.cs
+Assets\QuickSave\Core\Serialisers\JsonSerialiser.cs
+Assets\QuickSave\Core\Storage\FileAccess.cs
+Assets\UtilGame1\Meshes\Materials\MiniMap\Minimap.cs
+Assets\UtilGame1\Meshes\Materials\MiniMap\MinimapCamera.cs
+Assets\UtilGame1\Prefabs\Gameplay\CameraBillboard.cs
+Assets\UtilGame1\Prefabs\Gameplay\NPC_Healthbar.cs
+Assets\UtilGame1\Scripts\Axe.cs
+Assets\UtilGame1\Scripts\Berserker.cs
+Assets\UtilGame1\Scripts\Cannon.cs
+Assets\UtilGame1\Scripts\Cannonball.cs
+Assets\UtilGame1\Scripts\CannonController.cs
+Assets\UtilGame1\Scripts\Club.cs
+Assets\UtilGame1\Scripts\Crate.cs
+Assets\UtilGame1\Scripts\DamageSource.cs
+Assets\UtilGame1\Scripts\Door.cs
+Assets\UtilGame1\Scripts\FirstAid.cs
+Assets\UtilGame1\Scripts\Food.cs
+Assets\UtilGame1\Scripts\Game\GameManager.cs
+Assets\UtilGame1\Scripts\Game\GameWinCondition.cs
+Assets\UtilGame1\Scripts\Game\QuestSolvedWinCondition.cs
+Assets\UtilGame1\Scripts\Gem.cs
+Assets\UtilGame1\Scripts\HealthBar.cs
+Assets\UtilGame1\Scripts\House_Roof.cs
+Assets\UtilGame1\Scripts\HUD.cs
+Assets\UtilGame1\Scripts\Interfaces.cs
+Assets\UtilGame1\Scripts\Inventory.cs
+Assets\UtilGame1\Scripts\InventoryItem.cs
+Assets\UtilGame1\Scripts\InventoryItemBase.cs
+Assets\UtilGame1\Scripts\InventorySlot.cs
+Assets\UtilGame1\Scripts\ItemClickHandler.cs
+Assets\UtilGame1\Scripts\ItemDragHandler.cs
+Assets\UtilGame1\Scripts\ItemDropHandler.cs
+Assets\UtilGame1\Scripts\Key.cs
+Assets\UtilGame1\Scripts\PlayerController.cs
+Assets\UtilGame1\Scripts\PlayerFollow.cs
+Assets\UtilGame1\Scripts\Quest\CollectQuestTask.cs
+Assets\UtilGame1\Scripts\Quest\KillEnemyQuestTask.cs
+Assets\UtilGame1\Scripts\Quest\Quest.cs
+Assets\UtilGame1\Scripts\Quest\QuestAcceptUI.cs
+Assets\UtilGame1\Scripts\Quest\QuestGiver.cs
+Assets\UtilGame1\Scripts\Quest\QuestListener.cs
+Assets\UtilGame1\Scripts\Quest\QuestSelectHandler.cs
+Assets\UtilGame1\Scripts\Quest\QuestUI.cs
+Assets\UtilGame1\Scripts\RedGuy.cs
+Assets\UtilGame1\Scripts\Sheep.cs
+Assets\UtilGame1\Scripts\Tree_Fall.cs
+Assets\UtilGame1\UTalk\Data\Actor.cs
+Assets\UtilGame1\UTalk\Data\ActorCollection.cs
+Assets\UtilGame1\UTalk\Data\Conversation.cs
+Assets\UtilGame1\UTalk\Data\ConversationItem.cs
+Assets\UtilGame1\UTalk\Data\Edge.cs
+Assets\UtilGame1\UTalk\Scripts\ConversationDatabase.cs
+Assets\UtilGame1\UTalk\Scripts\ConversationEvents.cs
+Assets\UtilGame1\UTalk\Scripts\ConversationItemListener.cs
+Assets\UtilGame1\UTalk\Scripts\ConversationListener.cs
+Assets\UtilGame1\UTalk\Scripts\ConversationManager.cs
+Assets\UtilGame1\UTalk\Scripts\ConversationPanelHandler.cs
+Assets\UtilGame1\UTalk\Scripts\ConversationTrigger.cs
+Assets\UtilGame1\UTalk\Scripts\IConversationProvider.cs
+Assets\UtilPackCharacters\Jammo-Character\Scripts\CharacterSkinController.cs
+Assets\UtilPackCharacters\Jammo-Character\Scripts\MovementInput.cs
+"Assets\UtilPackCharacters\Supercyan Character Pack Free Sample\Scripts\CameraLogicFree.cs"
+"Assets\UtilPackCharacters\Supercyan Character Pack Free Sample\Scripts\DemoFree.cs"
+"Assets\UtilPackCharacters\Supercyan Character Pack Free Sample\Scripts\SimpleCharacterControlFree.cs"
+Assets\UtilPackCrowd2\EasyPopulation-Core\Animations\Movimentos\Mercado\Mercadeiro.cs
+Assets\UtilPackCrowd2\EasyPopulation-Core\Animations\ResetVariablesInteraction.cs
+Assets\UtilPackCrowd2\EasyPopulation-Core\CrowdScripts\FactoryWorld.cs
+Assets\UtilPackCrowd2\EasyPopulation-Core\CrowdScripts\gajo\behavior\Actions.cs
+Assets\UtilPackCrowd2\EasyPopulation-Core\CrowdScripts\gajo\behavior\BehaviorAI.cs
+Assets\UtilPackCrowd2\EasyPopulation-Core\CrowdScripts\gajo\behavior\Dispatcher.cs
+Assets\UtilPackCrowd2\EasyPopulation-Core\CrowdScripts\gajo\behavior\InteractionAnimations.cs
+Assets\UtilPackCrowd2\EasyPopulation-Core\CrowdScripts\gajo\behavior\InteractionHandler.cs
+Assets\UtilPackCrowd2\EasyPopulation-Core\CrowdScripts\gajo\behavior\markov\Estado.cs
+Assets\UtilPackCrowd2\EasyPopulation-Core\CrowdScripts\gajo\behavior\markov\MarkovGajo.cs
+Assets\UtilPackCrowd2\EasyPopulation-Core\CrowdScripts\gajo\behavior\markov\MarkovTemplate.cs
+Assets\UtilPackCrowd2\EasyPopulation-Core\CrowdScripts\gajo\behavior\MemoryOfRelationships.cs
+Assets\UtilPackCrowd2\EasyPopulation-Core\CrowdScripts\gajo\behavior\Psychology.cs
+Assets\UtilPackCrowd2\EasyPopulation-Core\CrowdScripts\gajo\behavior\Rewards.cs
+Assets\UtilPackCrowd2\EasyPopulation-Core\CrowdScripts\gajo\CitizenFactory.cs
+Assets\UtilPackCrowd2\EasyPopulation-Core\CrowdScripts\gajo\Gajo.cs
+Assets\UtilPackCrowd2\EasyPopulation-Core\CrowdScripts\gajo\GajoCitizen.cs
+Assets\UtilPackCrowd2\EasyPopulation-Core\CrowdScripts\gajo\GajoFollower.cs
+Assets\UtilPackCrowd2\EasyPopulation-Core\CrowdScripts\gajo\GajoWorker.cs
+Assets\UtilPackCrowd2\EasyPopulation-Core\CrowdScripts\gajo\navigation\ClickToMove.cs
+Assets\UtilPackCrowd2\EasyPopulation-Core\CrowdScripts\gajo\navigation\Gait.cs
+Assets\UtilPackCrowd2\EasyPopulation-Core\CrowdScripts\gajo\navigation\LookAt.cs
+Assets\UtilPackCrowd2\EasyPopulation-Core\CrowdScripts\gajo\navigation\Navigation.cs
+Assets\UtilPackCrowd2\EasyPopulation-Core\CrowdScripts\gajo\navigation\WalkerAI.cs
+Assets\UtilPackCrowd2\EasyPopulation-Core\CrowdScripts\gajo\physiology\dna\DNA.cs
+Assets\UtilPackCrowd2\EasyPopulation-Core\CrowdScripts\gajo\physiology\Metabolism.cs
+Assets\UtilPackCrowd2\EasyPopulation-Core\CrowdScripts\gajo\Profession.cs
+Assets\UtilPackCrowd2\EasyPopulation-Core\CrowdScripts\gajo\XEditor\ConditionalEnumAttribute.cs
+Assets\UtilPackCrowd2\EasyPopulation-Core\CrowdScripts\gajo\XEditor\ConditionalEnumPropertyDrawer.cs
+Assets\UtilPackCrowd2\EasyPopulation-Core\CrowdScripts\gajo\XEditor\ConditionalHideAttribute.cs
+Assets\UtilPackCrowd2\EasyPopulation-Core\CrowdScripts\gajo\XEditor\ConditionalHidePropertyDrawer.cs
+Assets\UtilPackCrowd2\EasyPopulation-Core\CrowdScripts\gajo\XEditor\ContinuousLoop-Editor.cs
+Assets\UtilPackCrowd2\EasyPopulation-Core\CrowdScripts\gajo\XEditor\EditorMarkovBehavior.cs
+Assets\UtilPackCrowd2\EasyPopulation-Core\CrowdScripts\gajo\XEditor\GajoDebugger.cs
+Assets\UtilPackCrowd2\EasyPopulation-Core\CrowdScripts\gajo\XEditor\OptionsEditor.cs
+Assets\UtilPackCrowd2\EasyPopulation-Core\CrowdScripts\gajo\XEditor\PopulationManager.cs
+Assets\UtilPackCrowd2\EasyPopulation-Core\CrowdScripts\gajo\XEditor\ReadOnlyDrawer.cs
+Assets\UtilPackCrowd2\EasyPopulation-Core\CrowdScripts\Global.cs
+Assets\UtilPackCrowd2\EasyPopulation-Core\CrowdScripts\InspectorButtonAttribute.cs
+Assets\UtilPackCrowd2\EasyPopulation-Core\CrowdScripts\log\Log.cs
+Assets\UtilPackCrowd2\EasyPopulation-Core\CrowdScripts\ShippingHandler.cs
+Assets\UtilPackCrowd2\EasyPopulation-Core\CrowdScripts\singleton\MonoBehaviorExtended.cs
+Assets\UtilPackCrowd2\EasyPopulation-Core\CrowdScripts\singleton\Singleton.cs
+Assets\UtilPackCrowd2\EasyPopulation-Core\CrowdScripts\TemplateMarkovProfession.cs
+Assets\UtilPackCrowd2\EasyPopulation-Core\CrowdScripts\utils\DrawArrow.cs
+Assets\UtilPackCrowd2\EasyPopulation-Core\CrowdScripts\utils\FadingMessage.cs
+Assets\UtilPackCrowd2\EasyPopulation-Core\CrowdScripts\utils\MeasureSpaceAround.cs
+Assets\UtilPackCrowd2\EasyPopulation-Core\CrowdScripts\utils\MonitorFPS.cs
+Assets\UtilPackCrowd2\EasyPopulation-Core\CrowdScripts\utils\TestaRotacaoPersonagem.cs
+Assets\UtilPackCrowd2\EasyPopulation-Core\CrowdScripts\utils\Timer.cs
+Assets\UtilPackCrowd2\EasyPopulation-Core\CrowdScripts\utils\Utils.cs
+Assets\UtilPackCrowd2\EasyPopulation-Core\CrowdScripts\XMLLoader.cs
+Assets\UtilPackCrowd2\EasyPopulation-Core\CrowdScripts\XMLManager.cs
+Assets\UtilPackCrowd2\EasyPopulation-Core\CrowdScripts\XMLSaver.cs
+Assets\UtilPackRpgAnimations\scripts\CameraController.cs
+Assets\UtilPackRpgAnimations\scripts\HiderInTime.cs
+Assets\UtilPackRpgAnimations\scripts\HidingMachineBehaviour.cs
+Assets\UtilPackRpgAnimations\scripts\ScrollSwitcher.cs
+Assets\UtilPackRpgAnimations\scripts\UI_no_weapon.cs
+Assets\UtilPackRpgAnimations\scripts\UI_sword.cs
+Assets\UtilPackRpgAnimations\scripts\WeaponHide.cs
+Assets\UtilPackRpgAnimations\scripts\WorldInteraction.cs
+"Assets\UtilPackShaderCartoon\Toony Colors\Demo 2.0\TCF_Demo.cs"
