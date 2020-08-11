@@ -1,6 +1,6 @@
 # CyberKids - Propoósito
 
-Aplicación de tipo juego que busca concientizar niños de 8 a 12 años
+Aplicación de tipo juego que busca concientizar a niños de 8 a 12 años sobre temas básicos de ciber seguridad
 
 ## Comenzando la Instalación 🚀
 
@@ -60,7 +60,7 @@ Enjoy!
 
 
 ## Versionado 📌
-
+APK 1.6 - 1.7 
 ## Autores ✒️
 
 _Juan Pérez Veas
@@ -75,5 +75,8 @@ _Grupo de compañeros de Gamification
 
 
 ## Expresiones de Gratitud 🎁
+_Principalmente al grupo de trabajo de gamification por hacer posible la realización de esta pequeña aplicación educativa, aportando con pequeñas ideas, material de apoyo y algunos videos, entre otros.
+
+_Profesores: Sven Von Brand y Romina Torres por la aceptación del producto y por la oportunidad de hacer participe de un proyecto con propósitos educativos sobre temas actuales de ciber seguridad y temas que permitan enseñar a protegerse ante algunas vulnerabilidades presentes.
 
 
