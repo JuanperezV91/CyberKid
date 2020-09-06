@@ -1,0 +1,46 @@
+Sprint 6:
+
+Se realiza la entrega de sprint 6 para efectuar la evaluación correspondiente.
+
+-----Objetivo Sprint--------
+El objetivo principal del Sprint es la implementación de un juego de partidas con múltiples usuarios que les permitan ganar puntaje en conjunto
+
+-----Tareas Realizadas--------
+
+1.- Expandir Opciones de Customización de Avatar
+
+	Detalles: El usuario es capaz de modificar su avatar en los distintos niveles
+	Estado: Realizada 
+	Observaciones: Se realizan modificaciones en el avatar en el transcurso de los niveles
+
+2.- Cubrir Vulnerabilidades I
+
+	Detalles: Permitir al usuario interactuar con objetivos los cuales le permitan identificar contraseñas seguras para sus dispositivos o equipos.
+	Estado: Realizada
+	Observaciones: Se pueden realizar pequeñas pruebas que permiten identificar contraseñas robustas y patrones seguros
+
+
+3.- Cubrir Vulnerabilidades 
+
+	•	Detalles: Permitir al usuario interactuar con elementos (Dispositivos USB) que contengan información segura y no segura, de manera que pueda ser capaz de identificar ciertos riesgos al abrir algún contenido.
+	•	Estado: Incompleta
+	•	Observaciones: No se realiza
+
+
+4.- HU-03 Jugar como Ciberbrigada 
+
+	•	Detalles:Puedo unirme a una ciberbrigada X para poder ganar puntos en conjunto
+	•	Estado: Intermedia
+	•	Observaciones: 
+			Se logra:
+			•	Crear el escenario
+			•	Integrar los mensajes predefinidos
+			•	Jugar pequeñas partidas de 2 jugadores
+			•	Interactuar un escenario con 2 jugadores
+			•	Crear 1 mini juego
+
+			No se logra:
+			•	Crear un multijugador
+			•	Crear múltiples partidas
+			•	No completar en su totalidad el requerimiento
+
