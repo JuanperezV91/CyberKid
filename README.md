@@ -60,7 +60,7 @@ Enjoy!
 
 
 ## Versionado 📌
-APK 1.6 - 1.7 
+APK 1.6 - 1.7 - 1.8
 ## Autores ✒️
 
 _Juan Pérez Veas
