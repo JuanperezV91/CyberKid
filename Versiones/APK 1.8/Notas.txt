@@ -1,0 +1,31 @@
+Sprint 7:
+
+Se realiza la entrega de sprint 6 para efectuar la evaluación correspondiente.
+
+-----Objetivo Sprint--------
+
+El objetivo principal del Sprint es la mejora de rendimiento de la aplicación, aumentando la fluidez y la velocidad de la aplicación respecto a su jugabilidad. Ademas
+de integrar un mini juego de concientización la cual permita al usuario bloquear ataques masivos gracias a diferentes escudos de protección.
+
+-----Tareas Realizadas--------
+
+1.- Mejorar rendimiento
+
+	Detalles: El usuario es capaz visualizar mejoras en la aplicación
+	Estado: Realizada 
+	Observaciones: La jugabilidad funciona de manera fluida
+
+2.- HU-09 Jugar mini juego de concientización
+
+	Detalles: Quiero jugar un mini juego que me permita crear conciencia sobre el uso de escudos de protección a utilizar por sobre los diferentes ataques masivos a las vulnerabilidades abiertas.
+	Estado: Realizada
+	Observaciones: 
+			Se logra:
+			•	Crear el escenario
+			•	Visualizar mensajes predefinidos al activar escudos de concientización
+			•	Integrar escudos protectores
+			•	Integrar temporizador de juego
+			•	Integrar tutorial Introductorio
+			•	Puntuación a causa de las diferentes colisiones entre objetos maliciosos y escudos protectores
+			•	Visualizar resultados finales
+	
