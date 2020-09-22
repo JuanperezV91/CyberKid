@@ -4,118 +4,129 @@ using UnityEngine;
 
 public class CustomAvatar : MonoBehaviour
 {
-   /* int currentX;
-    public Material[] materials;
+    int currentXSkin;
+    int currentXSkinArms;
+    int currentXPants;
+    int currentXTshirt;
+    int currentXHair;
 
-    public int varIndexHair;
-    public int varIndexTshirt;
-    public int varIndexSkin;
-    public int varIndexSkinArm;
-    public int varIndexPant;
+    public Material[] materiales;
 
-    public Renderer rend;
-    public int xSkin;
-    public Renderer rendSkin;
+    int varIndexHair;
+    int varIndexTshirt;
+    int varIndexSkin;
+    int varIndexSkinArm;
+    int varIndexPant;
+
+    Renderer rend;
+    static public int xSkinAvatar;
+    Renderer rendSkinAv;
     //Hair
-    public int xHair;
-    public Renderer rendHair;
+    static public int xHairAvatar;
+    Renderer rendHairAv;
     //Pants
-    public int xPant;
-    public Renderer rendPant;
+    static public int xPantAvatar;
+    Renderer rendPantAv;
     //Tshirt
-    public int xTShirt;
-    public Renderer rendTShirt;
+    static public int xTShirtAvatar;
+    Renderer rendTShirtAv;
     //SkinArms
-    public int xSkinArms;
-    public Renderer rendSkinArms;
+    static public int xSkinArmsAvatar;
+    Renderer rendSkinArmsAv;
     
     void Start()
     {
 
-        LoadCustom();
         // xPant = 0;
 
-        if (xPant != currentX) //Pants
+        if (xPantAvatar != currentXPants) //Pants
         {
-            currentX = xPant;
-            rendPant = GetComponent<Renderer>();
-            rendPant.enabled = true;
-            rendPant.sharedMaterial = materials[currentX];
+            currentXPants = xPantAvatar;
+            rendPantAv = GetComponent<Renderer>();
+            rendPantAv.enabled = true;
+            rendPantAv.sharedMaterial = materiales[currentXPants];
         }
         else
-           if (xSkin != currentX) //Skins
+           if (xSkinAvatar != currentXSkin) //Skins
         {
-            currentX = xSkin;
+            currentXSkin = xSkinAvatar;
             //  xSkin = 0;
-            rendSkin = GetComponent<Renderer>();
-            rendSkin.enabled = true;
-            rendSkin.sharedMaterial = materials[currentX];
+            rendSkinAv = GetComponent<Renderer>();
+            rendSkinAv.enabled = true;
+            rendSkinAv.sharedMaterial = materiales[currentXSkin];
         }
         else
-           if (xHair != currentX) //Hair
+           if (xHairAvatar != currentXHair) //Hair
         {
-            currentX = xHair;
+            currentXHair = xHairAvatar;
             // xHair = 0;
-            rendHair = GetComponent<Renderer>();
-            rendHair.enabled = true;
-            rendHair.sharedMaterial = materials[currentX];
+            rendHairAv = GetComponent<Renderer>();
+            rendHairAv.enabled = true;
+            rendHairAv.sharedMaterial = materiales[currentXHair];
         }
         else
-           if (xTShirt != currentX)//Tshirt
+           if (xTShirtAvatar != currentXTshirt)//Tshirt
         {
-            currentX = xTShirt;
+            currentXTshirt = xTShirtAvatar;
             // xTShirt = 0;
-            rendTShirt = GetComponent<Renderer>();
-            rendTShirt.enabled = true;
-            rendTShirt.sharedMaterial = materials[currentX];
+            rendTShirtAv = GetComponent<Renderer>();
+            rendTShirtAv.enabled = true;
+            rendTShirtAv.sharedMaterial = materiales[currentXTshirt];
         }
         else
-           if (xSkinArms != currentX)//Skin Arms
+           if (xSkinArmsAvatar != currentXSkinArms)//Skin Arms
         {
-            currentX = xSkinArms;
+            currentXSkinArms = xSkinArmsAvatar;
             // xSkinArms = 0;
-            rendSkinArms = GetComponent<Renderer>();
-            rendSkinArms.enabled = true;
-            rendSkinArms.sharedMaterial = materials[currentX];
+            rendSkinArmsAv = GetComponent<Renderer>();
+            rendSkinArmsAv.enabled = true;
+            rendSkinArmsAv.sharedMaterial = materiales[currentXSkinArms];
 
         }
-        
+
+        LoadCustom();
+
+
     }
 
     void Update()
     {
-        rendSkin.sharedMaterial = materials[xSkin];
-        rendHair.sharedMaterial = materials[xHair];
-        rendSkin.sharedMaterial = materials[xSkin];
-        rendTShirt.sharedMaterial = materials[xTShirt];
-        rendSkinArms.sharedMaterial = materials[xSkinArms];
+        rendSkinAv.sharedMaterial = materiales[xSkinAvatar];
+        rendHairAv.sharedMaterial = materiales[xHairAvatar];
+        rendSkinAv.sharedMaterial = materiales[xSkinAvatar];
+        rendTShirtAv.sharedMaterial = materiales[xTShirtAvatar];
+        rendSkinArmsAv.sharedMaterial = materiales[xSkinArmsAvatar];
 
-        if (xPant != currentX) //Pants
+        if (xPantAvatar != currentXPants) //Pants
         {
-            currentX = xPant;
-            rendPant.sharedMaterial = materials[currentX];
-        }else
-            if(xSkin != currentX) //Skins
-        {
-            currentX = xSkin;
-            rendSkin.sharedMaterial = materials[currentX];
-        }else
-            if(xHair != currentX) //Hair
-        {
-            currentX = xHair;
-            rendHair.sharedMaterial = materials[currentX];
-        }else
-            if (xTShirt != currentX)//Tshirt
-        {
-            currentX = xTShirt;
-            rendTShirt.sharedMaterial = materials[currentX];
-        }else
-            if (xSkinArms != currentX)//Skin Arms
-        {
-            currentX = xSkinArms;
-            rendSkinArms.sharedMaterial = materials[currentX];
-
+            currentXPants = xPantAvatar;           
+            rendPantAv.sharedMaterial = materiales[currentXPants];
         }
+        else
+          if (xSkinAvatar != currentXSkin) //Skins
+        {
+            currentXSkin = xSkinAvatar;           
+            rendSkinAv.sharedMaterial = materiales[currentXSkin];
+        }
+        else
+          if (xHairAvatar != currentXHair) //Hair
+        {
+            currentXHair = xHairAvatar;     
+            rendHairAv.sharedMaterial = materiales[currentXHair];
+        }
+        else
+          if (xTShirtAvatar != currentXTshirt)//Tshirt
+        {
+            currentXTshirt = xTShirtAvatar;           
+            rendTShirtAv.sharedMaterial = materiales[currentXTshirt];
+        }
+        else
+          if (xSkinArmsAvatar != currentXSkinArms)//Skin Arms
+        {
+            currentXSkinArms = xSkinArmsAvatar;          
+            rendSkinArmsAv.sharedMaterial = materiales[currentXSkinArms];
+
+        }      
 
         SaveCustom();
 
@@ -123,23 +134,22 @@ public class CustomAvatar : MonoBehaviour
     
     public void NextColorSkin()
     {
-         xSkin = 0;
-        if (xSkin < 3) // 3
+        if (xSkinAvatar < 3) // 3
         {
-            xSkin++;
+            xSkinAvatar++;
         }
         else
         {
-            xSkin = 0;
+            xSkinAvatar = 0;
         }
         // SaveCustom();
 
         //  xSkin = 0;
-        rendSkin = GetComponent<Renderer>();
-        rendSkin.enabled = true;
-        rendSkin.sharedMaterial = materials[xSkin];
+        rendSkinAv = GetComponent<Renderer>();
+        rendSkinAv.enabled = true;
+        rendSkinAv.sharedMaterial = materiales[xSkinAvatar];
 
-        varIndexSkin = xSkin;
+        varIndexSkin = xSkinAvatar;
 
 
     }
@@ -149,25 +159,24 @@ public class CustomAvatar : MonoBehaviour
 
     public void NextColorSkinArms()
     {
-         xSkinArms = 4;
+        
 
-
-        if (xSkinArms > 3 && xSkinArms < 7) // 3
+        if (xSkinArmsAvatar < 3) // 3
         {
-            xSkinArms++;
+            xSkinArmsAvatar++;
         }
         else
         {
-            xSkinArms = 0;
+            xSkinArmsAvatar = 0;
         }
         // SaveCustom();
 
         // xSkinArms = 0;
-        rendSkinArms = GetComponent<Renderer>();
-        rendSkinArms.enabled = true;
-        rendSkinArms.sharedMaterial = materials[xSkinArms];
+        rendSkinArmsAv = GetComponent<Renderer>();
+        rendSkinArmsAv.enabled = true;
+        rendSkinArmsAv.sharedMaterial = materiales[xSkinArmsAvatar];
 
-        varIndexSkinArm = xSkinArms;
+        varIndexSkinArm = xSkinArmsAvatar;
     }
 
     //CustomHair
@@ -176,44 +185,43 @@ public class CustomAvatar : MonoBehaviour
     public void NextColorHair()
     {
 
-         xHair = 8;
+ 
 
-        if (xHair > 7 && xHair < 12) // 3
+        if (xHairAvatar < 3) // 3
         {
-            xHair++;
+            xHairAvatar++;
         }
         else
         {
-            xHair = 0;
+            xHairAvatar = 0;
         }
 
         // xHair = 0;
-        rendHair = GetComponent<Renderer>();
-        rendHair.enabled = true;
-        rendHair.sharedMaterial = materials[xHair];
+        rendHairAv = GetComponent<Renderer>();
+        rendHairAv.enabled = true;
+        rendHairAv.sharedMaterial = materiales[xHairAvatar];
         // SaveCustom();
-        varIndexHair = xHair;
+        varIndexHair = xHairAvatar;
     }
 
     //Pants
 
     public void NextColorPants()
     {
-        xPant = 12;
                      
-        if (xPant > 11 && xPant < 18) // 5
+        if (xPantAvatar < 5) // 5
         {
-            xPant++;
+            xPantAvatar++;
         }
         else
         {
-            xPant = 0;
+            xPantAvatar = 0;
         }
 
-        rendPant = GetComponent<Renderer>();
-        rendPant.enabled = true;
-        rendPant.sharedMaterial = materials[xPant];
-        varIndexPant = xPant;
+        rendPantAv = GetComponent<Renderer>();
+        rendPantAv.enabled = true;
+        rendPantAv.sharedMaterial = materiales[xPantAvatar];
+        varIndexPant = xPantAvatar;
         //  SaveCustom();
 
     }
@@ -222,22 +230,21 @@ public class CustomAvatar : MonoBehaviour
 
     public void NextColorTShirt()
     {
-         xTShirt = 18;
        
 
-        if (xTShirt > 17 && xTShirt < 24) //6
+        if (xTShirtAvatar < 6) //6
         {
-            xTShirt++;
+            xTShirtAvatar++;
         }
         else
         {
-            xTShirt = 0;
+            xTShirtAvatar = 0;
         }
 
-        rendTShirt = GetComponent<Renderer>();
-        rendTShirt.enabled = true;
-        rendTShirt.sharedMaterial = materials[xTShirt];
-        varIndexTshirt = xTShirt;
+        rendTShirtAv = GetComponent<Renderer>();
+        rendTShirtAv.enabled = true;
+        rendTShirtAv.sharedMaterial = materiales[xTShirtAvatar];
+        varIndexTshirt = xTShirtAvatar;
         //  SaveCustom();
 
     }
@@ -246,80 +253,58 @@ public class CustomAvatar : MonoBehaviour
     //Save and Load
     public static void SaveCustom()
     {
-        PlayerPrefs.SetInt("Pants", xPant);
-        PlayerPrefs.SetInt("Tshirt", xTShirt);
-        PlayerPrefs.SetInt("SkinArms", xSkinArms);
-        PlayerPrefs.SetInt("Skin", xSkin);
-        PlayerPrefs.SetInt("Hair", xHair);
-       // PlayerPrefs.Save();        
-        rend.sharedMaterial = materials[xSkin];
-        rend.sharedMaterial = materials[xHair];
-        rend.sharedMaterial = materials[xPant];
-        rend.sharedMaterial = materials[xTShirt];
-        rend.sharedMaterial = materials[xSkinArms];        
-        Debug.Log(xPant);
-        Debug.Log(xTShirt);
-        Debug.Log(xSkinArms);
-        Debug.Log(xSkin);
-        Debug.Log(xHair);
+        PlayerPrefs.SetInt("Pants", xPantAvatar);
+        PlayerPrefs.SetInt("Tshirt", xTShirtAvatar);
+        PlayerPrefs.SetInt("SkinArms", xSkinArmsAvatar);
+        PlayerPrefs.SetInt("Skin", xSkinAvatar);
+        PlayerPrefs.SetInt("Hair", xHairAvatar);
+        // PlayerPrefs.Save();        
+       /* rendSkinAv.sharedMaterial = materiales[xSkinAvatar];
+        rendHairAv.sharedMaterial = materiales[xHairAvatar];
+        rendPantAv.sharedMaterial = materiales[xPantAvatar];
+        rendTShirtAv.sharedMaterial = materiales[xTShirtAvatar];
+        rendSkinArmsAv.sharedMaterial = materiales[xSkinArmsAvatar];        
+        Debug.Log(xPantAvatar);
+        Debug.Log(xTShirtAvatar);
+        Debug.Log(xSkinArmsAvatar);
+        Debug.Log(xSkinAvatar);
+        Debug.Log(xHairAvatar);*/
 
     }
     public static void LoadCustom()
     {
-        xPant = PlayerPrefs.GetInt("Pants");
-        xTShirt = PlayerPrefs.GetInt("Tshirt");
-        xSkinArms = PlayerPrefs.GetInt("SkinArms");
-        xSkin = PlayerPrefs.GetInt("Skin");
-        xHair = PlayerPrefs.GetInt("Hair");
+        xPantAvatar = PlayerPrefs.GetInt("Pants",0);
+        xTShirtAvatar = PlayerPrefs.GetInt("Tshirt",0);
+        xSkinArmsAvatar = PlayerPrefs.GetInt("SkinArms",0);
+        xSkinAvatar = PlayerPrefs.GetInt("Skin",0);
+        xHairAvatar = PlayerPrefs.GetInt("Hair",0);
 
+        /*
+        rendPantAv = GetComponent<Renderer>();
+        rendPantAv.enabled = true;
+        rendPantAv.sharedMaterial = materiales[xPantAvatar];
+
+        //  xSkin = 0;
+        rendSkinAv = GetComponent<Renderer>();
+        rendSkinAv.enabled = true;
+        rendSkinAv.sharedMaterial = materiales[xSkinAvatar];
+
+        // xHair = 0;
+        rendHairAv = GetComponent<Renderer>();
+        rendHairAv.enabled = true;
+        rendHairAv.sharedMaterial = materiales[xHairAvatar];
+
+        // xTShirt = 0;
+        rendTShirtAv = GetComponent<Renderer>();
+        rendTShirtAv.enabled = true;
+        rendTShirtAv.sharedMaterial = materiales[xTShirtAvatar];
+
+        // xSkinArms = 0;
+        rendSkinArmsAv = GetComponent<Renderer>();
+        rendSkinArmsAv.enabled = true;
+        rendSkinArmsAv.sharedMaterial = materiales[xSkinArmsAvatar];
         
-        rendPant = GetComponent<Renderer>();
-        rendPant.enabled = true;
-        rendPant.sharedMaterial = materials[varIndexPant];
-
-        //  xSkin = 0;
-        rendSkin = GetComponent<Renderer>();
-        rendSkin.enabled = true;
-        rendSkin.sharedMaterial = materials[varIndexSkin];
-
-        // xHair = 0;
-        rendHair = GetComponent<Renderer>();
-        rendHair.enabled = true;
-        rendHair.sharedMaterial = materials[varIndexHair];
-
-        // xTShirt = 0;
-        rendTShirt = GetComponent<Renderer>();
-        rendTShirt.enabled = true;
-        rendTShirt.sharedMaterial = materials[varIndexTshirt];
-
-        // xSkinArms = 0;
-        rendSkinArms = GetComponent<Renderer>();
-        rendSkinArms.enabled = true;
-        rendSkinArms.sharedMaterial = materials[varIndexSkinArm];
-
-        rend = GetComponent<Renderer>();
-        rend.enabled = true;
-        rend.sharedMaterial = materials[xPant];
-
-        //  xSkin = 0;
-        rend = GetComponent<Renderer>();
-        rend.enabled = true;
-        rend.sharedMaterial = materials[xSkin];
-
-        // xHair = 0;
-        rend = GetComponent<Renderer>();
-        rend.enabled = true;
-        rend.sharedMaterial = materials[xHair];
-
-        // xTShirt = 0;
-        rend = GetComponent<Renderer>();
-        rend.enabled = true;
-        rend.sharedMaterial = materials[xTShirt];
-
-        // xSkinArms = 0;
-        rend = GetComponent<Renderer>();
-        rend.enabled = true;
-        rend.sharedMaterial = materials[xSkinArms];
-
-    }*/
+        
+    */
+    }
 }

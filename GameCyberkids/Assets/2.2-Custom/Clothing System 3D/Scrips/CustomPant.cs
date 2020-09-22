@@ -4,15 +4,36 @@ using UnityEngine;
 
 public class CustomPant : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public Material[] materialPant;    
+    static public int xPant;
+    int currentX;
+    Renderer rendPant;
+    
     void Start()
     {
-        
-    }
+        xPant = PlayerPrefs.GetInt("pants", xPant);
+        rendPant = GetComponent<Renderer>();
+        rendPant.enabled = true;
+        rendPant.sharedMaterial = materialPant[xPant];
 
-    // Update is called once per frame
+    }
+   
     void Update()
     {
-        
+       rendPant.sharedMaterial = materialPant[xPant];
+        PlayerPrefs.SetInt("pants", xPant);
+
+    }
+
+    public void NextColorPants()
+    {
+        if (xPant < 5)
+        {
+            xPant++;
+        }
+        else
+        {
+            xPant = 0;
+        }
     }
 }

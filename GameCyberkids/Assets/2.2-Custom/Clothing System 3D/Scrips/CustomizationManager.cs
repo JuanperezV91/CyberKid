@@ -7,11 +7,14 @@ public class CustomizationManager : MonoBehaviour
     public Material[] material;
     public Material[] materialGlasses;
     public Material[] materialGlass;
+    public Material[] materialPants;
 
-    public int x;
-    public int indexGlasses;
-    public int xGlass;
+    static public int x;
+    static public int indexGlasses;
+    static public int xGlass;
+    static public int xPants;
 
+    Renderer rendPants;
     Renderer rend;
     Renderer rendGlasses;
     Renderer rendGlass;
@@ -49,25 +52,30 @@ public class CustomizationManager : MonoBehaviour
 
     GameObject HairBoy;
 
-    int hairIndex=0;
-    int capIndex = 0;
-    int glassIndex = 0;
-    int tshirtIndex = 0;
+    static int hairIndex =0;
+    static int capIndex = 0;
+    static int glassIndex = 0;
+    static int tshirtIndex = 0;
 
     void Start()
     {
-        x = 0;
+       // x = 0;
         rend = GetComponent<Renderer>();
         rend.enabled = true;
         rend.sharedMaterial = material[x];
 
+       // xPants = 0;
+        rendPants = GetComponent<Renderer>();
+        rendPants.enabled = true;
+        rendPants.sharedMaterial = material[xPants];
+        
         //Glasses Frame
-        indexGlasses = 0;
+       //  indexGlasses = 0;
         rendGlasses = GetComponent<Renderer>();
         rendGlasses.enabled = true;
         rendGlasses.sharedMaterial = materialGlasses[indexGlasses];
         //Glass
-        xGlass = 0;
+      //  xGlass = 0;
         rendGlass = GetComponent<Renderer>();
         rendGlass.enabled = true;
         rendGlass.sharedMaterial = materialGlass[xGlass];
@@ -78,18 +86,17 @@ public class CustomizationManager : MonoBehaviour
 
     void Update()
     {
+        rendPants.sharedMaterial = material[xPants];
         rend.sharedMaterial = material[x];
         rendGlasses.sharedMaterial = materialGlasses[indexGlasses];
         rendGlass.sharedMaterial = materialGlass[xGlass];
-
-
-
+               
     }
 
     //Tshirt
     public void NextColorTshirt()
     {
-        if (x < 4)
+        if (x < 7)
         {
             x++;
         }
@@ -98,6 +105,19 @@ public class CustomizationManager : MonoBehaviour
             x = 0;
         }
     }
+
+    public void NextColorPants()
+    {
+        if (xPants < 7)
+        {
+            xPants++;
+        }
+        else
+        {
+            xPants = 0;
+        }
+    }
+
 
     //Glass Frame
     public void ColorGlassFrame()

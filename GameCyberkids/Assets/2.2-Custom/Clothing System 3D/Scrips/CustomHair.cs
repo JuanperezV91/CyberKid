@@ -11,7 +11,7 @@ public class CustomHair : MonoBehaviour
     void Start()
     {
 
-       // xHair = 0;
+        xHair = PlayerPrefs.GetInt("hair", xHair);
         rendHair = GetComponent<Renderer>();
         rendHair.enabled = true;
         rendHair.sharedMaterial = materialHair[xHair];
@@ -21,6 +21,8 @@ public class CustomHair : MonoBehaviour
     void Update()
     {
         rendHair.sharedMaterial = materialHair[xHair];
+        PlayerPrefs.SetInt("hair", xHair);
+
     }
 
     public void NextColorHair()

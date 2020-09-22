@@ -23,6 +23,19 @@ public class ShopControlScript : MonoBehaviour {
         public Button buyButtonGW;
 
     */
+
+    static public bool acGlassWhite;
+    static public bool acGlassBlack;
+    static public bool acGlassBlue;
+
+    static public int valueGlassWhite;
+    static public int valueGlassBlack;
+    static public int valueGlassBlue;
+
+        
+       
+
+
     int moneyAmount;
     public Text moneyAmountText;   
     
@@ -39,13 +52,22 @@ public class ShopControlScript : MonoBehaviour {
     void Start()
     {
         moneyAmount = 290;
+
+        acGlassWhite = (PlayerPrefs.GetInt("acglasswhite") != 0); ;
+        acGlassBlack = (PlayerPrefs.GetInt("acglassblack") != 0); ;
+        acGlassBlue = (PlayerPrefs.GetInt("acglassblue") != 0); ;
+
+        btnGlassesBack.SetActive(acGlassWhite);
+        btnGlassesBlack.SetActive(acGlassBlack);
+        btnGlasses.SetActive(acGlassBlue);
+
     }
 
     // Update is called once per frame
     void Update()
     {
         moneyAmountText.text = "Puntaje:" + moneyAmount.ToString() + "$";
-        if(moneyAmount >= 100)
+        if(ScoreScript.scoreValue >= 100)
         {
             /* btnBuyGlassWhite.interactable = true;
              btnBuyGlassBlack.interactable = true;
@@ -53,6 +75,7 @@ public class ShopControlScript : MonoBehaviour {
             btnBuyGlassWhite.gameObject.SetActive(true);
             btnBuyGlassBlack.gameObject.SetActive(true);
             btnBuyGlassBlue.gameObject.SetActive(true);
+
 
         }
         else
@@ -69,34 +92,53 @@ public class ShopControlScript : MonoBehaviour {
 
     public void buyGlassesWhite()
     {
+        valueGlassWhite = acGlassWhite ? 1 : 0;
+       
+
         if (btnGlassesBack != null)
         {
-            moneyAmount -= 100;
+            ScoreScript.scoreValue -= 100;
             bool isActive = btnGlassesBack.activeSelf;
             btnGlassesBack.SetActive(true);
+            //PlayerPrefs
+            valueGlassWhite = 1;
+            PlayerPrefs.SetInt("acglasswhite", valueGlassWhite);
+            //PlayerPrefs
             btnBuyGlassWhite.gameObject.SetActive(false);
         }
     }
 
     public void buyGlassesBlack()
     {
+        valueGlassBlack = acGlassBlack ? 1 : 0;
+
         if (btnGlassesBlack != null)
         {
-            moneyAmount -= 100;
+            ScoreScript.scoreValue -= 100;
             bool isActive = btnGlassesBlack.activeSelf;
             btnGlassesBlack.SetActive(true);
+            //PlayerPrefs
+            valueGlassBlack = 1;
+            PlayerPrefs.SetInt("acglassblack", valueGlassBlack);
+            //PlayerPrefs
             btnBuyGlassBlack.gameObject.SetActive(false);
 
         }
     }
 
     public void buyGlassesBlue()
-    {
+    {       
+        valueGlassBlue = acGlassBlue ? 1 : 0;
+
         if (btnGlasses != null)
         {
-            moneyAmount -= 100;
+            ScoreScript.scoreValue -= 100;
             bool isActive = btnGlasses.activeSelf;
             btnGlasses.SetActive(true);
+            //PlayerPrefs
+            valueGlassBlue = 1;
+            PlayerPrefs.SetInt("acglassblue", valueGlassBlue);
+            //PlayerPrefs
             btnBuyGlassBlue.gameObject.SetActive(false);
 
         }

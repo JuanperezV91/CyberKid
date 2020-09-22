@@ -11,6 +11,8 @@ public class MenuSeleccion2 : MonoBehaviour
     public GameObject PanelInventario;
     public GameObject Panel;
 
+    public GameObject targetActive;
+
 
     public void OpenPanelOne()
     {
@@ -35,18 +37,20 @@ public class MenuSeleccion2 : MonoBehaviour
 
     public void OpenPanelAyuda()
     {
-        if (PanelAyuda != null)
-        {
-            bool isActive = PanelAyuda.activeSelf;
-            PanelAyuda.SetActive(true);
-        }
+         if (PanelAyuda != null)
+         {
+             bool isActive = PanelAyuda.activeSelf;
+             PanelAyuda.SetActive(true);
+         }
     }
 
     public void ClosePanelAyuda()
     {
        
-            PanelAyuda.SetActive(false);
-        
+        PanelAyuda.SetActive(false);
+        targetActive.SetActive(true);
+
+
     }
 
 

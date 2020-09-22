@@ -10,7 +10,10 @@ public class CustomSkinFace : MonoBehaviour
 
     void Start()
     {
-        // xPant = 0;
+        QualitySettings.vSyncCount = 0;
+        Application.targetFrameRate = -1;
+
+        xFace = PlayerPrefs.GetInt("skinface", xFace);
         rendFace = GetComponent<Renderer>();
         rendFace.enabled = true;
         rendFace.sharedMaterial = materialFace[xFace];
@@ -20,11 +23,12 @@ public class CustomSkinFace : MonoBehaviour
     void Update()
     {
         rendFace.sharedMaterial = materialFace[xFace];
-
+        PlayerPrefs.SetInt("skinface", xFace);
     }
 
     public void NextColorFace()
     {
+
         if (xFace < 3)
         {
             xFace++;

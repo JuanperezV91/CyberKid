@@ -11,7 +11,7 @@ public class CustomSkinArms : MonoBehaviour
     void Start()
     {
 
-       // xSkinArms = 0;
+        xSkinArms = PlayerPrefs.GetInt("skinarms", xSkinArms);
         rendSkinArms = GetComponent<Renderer>();
         rendSkinArms.enabled = true;
         rendSkinArms.sharedMaterial = materialSkinArms[xSkinArms];
@@ -21,6 +21,7 @@ public class CustomSkinArms : MonoBehaviour
     void Update()
     {
         rendSkinArms.sharedMaterial = materialSkinArms[xSkinArms];
+        PlayerPrefs.SetInt("skinarms", xSkinArms);
     }
 
     public void NextColorSkinArms()

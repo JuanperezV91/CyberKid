@@ -40,6 +40,8 @@ public class DragAndDropObjects : MonoBehaviour
         targetThreeActive.SetActive(true);
         countObjects = 0;
     }
+
+    //Arrastrar objetos
     void OnMouseDrag()
     {
        // DistBagTarget = bagTarget.transform.position;

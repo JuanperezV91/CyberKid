@@ -124,4 +124,36 @@ public class ActiveChatBubble : MonoBehaviour
 
     }
 
+    public void textBubbleAnuncio()
+    {
+        //Anuncios
+        textChat = "No abran cualquier anuncio";
+        chatBubble.SetActive(true);
+        textMeshChat.SetText(textChat);
+
+        Invoke("desactivarTextBubble", 8f);
+    }
+
+    public void textBubbleApp()
+    {
+        //Anuncios
+        textChat = "No instalen cualquier aplicación";
+        chatBubble.SetActive(true);
+        textMeshChat.SetText(textChat);
+
+        Invoke("desactivarTextBubble", 8f);
+    }
+
+    public void textBubbleGood()
+    {
+        //Anuncios
+        textChat = "Vamos muy bien";
+        chatBubble.SetActive(true);
+        textMeshChat.SetText(textChat);
+
+        Invoke("desactivarTextBubble", 8f);
+    }
+
+
+
 }

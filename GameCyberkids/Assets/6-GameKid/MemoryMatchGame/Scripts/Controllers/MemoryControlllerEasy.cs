@@ -9,6 +9,7 @@ public class MemoryControlllerEasy : MemoryControllerBase
 {
 	[Header("Continue counting time during flip over?")]
 	public bool continueTime;
+	public GameObject panelGameOver;
 
     new void Start()
     {
@@ -32,9 +33,10 @@ public class MemoryControlllerEasy : MemoryControllerBase
 		}
 
 		//restart game
-		if(GameController.GameControllerProperties.CurrentGameState == GameState.GAME_OVER)
-			HandleRestartGame ();
-    }
+		if (GameController.GameControllerProperties.CurrentGameState == GameState.GAME_OVER)
+			panelGameOver.SetActive(true);
+			//HandleRestartGame ();
+	}
 
 	#region EXTERNAL METHODS
 	///<summary>

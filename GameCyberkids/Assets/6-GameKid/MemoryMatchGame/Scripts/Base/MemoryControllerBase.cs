@@ -184,6 +184,7 @@ public abstract class MemoryControllerBase : MonoBehaviour
         countMatch++;
         //add score
         scores += addScore;
+        ScoreScript.scoreValue += addScore;
         //update the gui showing the scores, avoid showing it in Update
         guiInstance.showScore.text = scores.ToString();
     }
